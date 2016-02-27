@@ -14,11 +14,11 @@ Features in Project:
   5. MemeSorterTest - To test sort functionality of memes. 
 
 Steps to execute program:
-1. Using maven assembly plugin assembled all dependency jars together to create an executable jar "meme-bundle-jar-with-dependencies.jar".
-   Copied this jar to root level directory for easy access. 
-2. If you would like to execute program in /tmp/meme.
-      a. Copy "sample_input_meme.json" from root level project ("jyothi-desu/meme_sorter_and_scorer") to /tmp/meme/meme.json
-      b. Copy "meme-bundle-jar-with-dependencies.jar" to /tmp/meme
-3. CD to /tmp/meme.
-4. Run command "java -cp meme-bundle-jar-with-dependencies.jar:meme.json com.comcast.meme.MemeSorterScorer"
-5. Verify content in /tmp/meme/meme.json has lulz score for each internet meme record. 
+1. Using maven assembly plugin assembled all dependency jars together to create an executable jar "meme-bundle-jar-with-dependencies.jar"
+   Copied this jar to root level directory for easy access. <br>
+2. If you would like to execute program in /tmp/meme.<br>
+      a. Copy "sample_input_meme.json" from root level project ("jyothi-desu/meme_sorter_and_scorer") to /tmp/meme/meme.json<br>
+      b. Copy "meme-bundle-jar-with-dependencies.jar" to /tmp/meme<br>
+3. CD to /tmp/meme.<br>
+4. Run command "java -cp meme-bundle-jar-with-dependencies.jar:meme.json com.comcast.meme.MemeSorterScorer"<br>
+5. Verify content in /tmp/meme/meme.json has lulz score for each internet meme record.<br> 
